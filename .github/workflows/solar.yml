@@ -1,0 +1,11 @@
+name: solar
+
+on: push
+jobs: 
+  energy:
+    runs-on: ubuntu-latest 
+    steps: 
+    - uses: action/checkout@v4
+    - name: install npm
+      run: npm install
+    
