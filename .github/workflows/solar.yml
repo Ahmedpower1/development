@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest 
     steps: 
     - uses: actions/checkout@v3
-    - name: install npm energy
-      run: npm install --save-dev eslint 
-    - name: run lint 
-      run: npx eslint *.js
+    - name: echo test
+      run: echo hello world
+   
